@@ -1,0 +1,104 @@
+@import url("http://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Jura", sans-serif;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    font-family: inherit;
+    vertical-align: middle;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4158d0, #ffcc70, #c850c0);
+    /* -webkit-background-clip: text;
+    color: transparent; */
+
+}
+
+.glass {
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffcc70, #4158d0, #c850c0);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(72, 6, 6, 0.1));
+    backdrop-filter: blur(8px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card p {
+    width: 375px;
+    height: 49px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.card input {
+    width: 260px;
+    height: 49px
+}
+
+.card p a {
+    width: 80px;
+    height: 24px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(72, 6, 6, 0.1));
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    font-size: 12px;
+
+}
+
+.card button {
+    width: 305px;
+    height: 49px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(72, 6, 6, 0.1));
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 16px;
+    border-radius: 20px;
+}
